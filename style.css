@@ -1,0 +1,20 @@
+h1{
+    font-size: 40px !important;
+    font-family: 'Elsie Swash Caps', cursive;
+}
+.btn-success:hover{
+background-color:purple;
+}
+canvas{
+    animation-name: example;
+    animation-iteration-count:infinite ;
+    animation-duration: 4s;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 40px violet;}
+    to{box-shadow: 1px 1px 40px red;}
+}
+.click{
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+}
